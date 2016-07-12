@@ -7,4 +7,58 @@
 		
 		
 	}
-	
+	ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: red;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: gold;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: navy  ;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+  color: grey;
+  padding: 12px 16px;
+  text-decoration:underline ;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: green  }
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+body { 
+background-size:cover;  
+background-repeat:no-repeat;
+}
