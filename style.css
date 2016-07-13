@@ -1,6 +1,6 @@
 	body {
 		background-image: url(http://www.tuvie.com/wp-content/uploads/fps-gaming-controller-by-hjc-design2.jpg);
-		color:red ;
+		color:blue ;
 		background-position: center;
 		background-color: yel;
 		
@@ -62,3 +62,5 @@ body {
 background-size:cover;  
 background-repeat:no-repeat;
 }
+
+{background-color:rgba(255,0,0,0.3);}
